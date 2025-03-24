@@ -57,7 +57,8 @@ footer {
 }
 
 .footer-image {
-    max-width: 180px;
+    width: 100%;  /* Make it match the container width */
+    max-width: 220px; /* Slightly wider to match text width better */
     height: auto;
     display: block;
     margin-top: 10px;
