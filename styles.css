@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,7 +29,7 @@ main {
 }
 
 .signature {
-    font-family: 'Cursive', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: 36px;
     text-align: center;
 }
@@ -43,4 +43,11 @@ footer {
 .footer-left p {
     margin: 0;
     font-size: 14px;
+}
+
+.footer-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
 }
